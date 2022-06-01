@@ -15,7 +15,7 @@ ActiveRecord::Schema.define(version: 2022_06_01_154407) do
   create_table "artists", force: :cascade do |t|
     t.string "name"
     t.string "genre"
-    t.string "age"
+    t.integer "age"
     t.string "hometown"
     t.string "favorite_flower"
   end
